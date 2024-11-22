@@ -1,8 +1,8 @@
 <div class="about flex w-full flex-col items-start">
-	<h2 class="font-lobster text-3xl font-semibold">About</h2>
+	<h2 class="font-lobster text-3xl font-semibold lg:text-5xl">About</h2>
 	<div class="flex w-full flex-col items-start gap-4">
 		<div class="flex flex-col items-start gap-4">
-			<p class="font-secondary font-extralight">
+			<p class="font-secondary font-extralight lg:text-lg">
 				I'm an experienced mobile and web software engineer with a passion for making things work.
 				I'm also a musician, avid cyclist, and craft beer lover. I'm currently open to new
 				opportunities in the software engineering world. I love to collaborate so hit me up if you'd

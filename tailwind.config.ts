@@ -24,6 +24,21 @@ export default {
 				light: '#D6D6D6',
 				plat: '#EAE1DF',
 				highlight: '#c5fffd'
+			},
+			animation: {
+				text: 'text 5s ease infinite'
+			},
+			keyframes: {
+				text: {
+					'0%, 100%': {
+						'background-size': '200% 200%',
+						'background-position': 'left center'
+					},
+					'50%': {
+						'background-size': '200% 200%',
+						'background-position': 'right center'
+					}
+				}
 			}
 		}
 	},
