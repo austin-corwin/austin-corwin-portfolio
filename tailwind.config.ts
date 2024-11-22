@@ -22,7 +22,8 @@ export default {
 			colors: {
 				dark: '#071E22',
 				light: '#D6D6D6',
-				plat: '#EAE1DF'
+				plat: '#EAE1DF',
+				highlight: '#c5fffd'
 			}
 		}
 	},
