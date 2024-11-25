@@ -21,9 +21,13 @@ export default {
 			},
 			colors: {
 				dark: '#071E22',
-				light: '#D6D6D6',
+				light: '#E0DDCF',
 				plat: '#EAE1DF',
-				highlight: '#c5fffd'
+				highlight: '#EF6F6C'
+				// highlightOne: '#DF2935',
+				// highlightTwo: '#23967F',
+				// highlightThree: '#c5fffd',
+				// highlightFour: '#EF6F6C'
 			},
 			animation: {
 				text: 'text 5s ease infinite'

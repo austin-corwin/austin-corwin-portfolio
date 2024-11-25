@@ -25,9 +25,8 @@
 		</div>
 	</div>
 	<div class="group/content relative">
-		<!-- <div class="absolute bottom-0 left-0 right-0 top-0 bg-black opacity-30"></div> -->
 		<div
-			class="absolute bottom-0 left-0 right-0 top-0 z-20 hidden rounded-l-xl rounded-r-xl rounded-t-xl rounded-bl-none rounded-br-none border-l-2 border-r-2 border-t-2 border-light bg-dark p-2 transition-all duration-300 ease-in-out group-hover/content:flex lg:flex-col lg:bg-opacity-90"
+			class="absolute bottom-0 left-0 right-0 top-0 z-20 rounded-l-xl rounded-r-xl rounded-t-xl rounded-bl-none rounded-br-none border-l-2 border-r-2 border-t-2 border-light bg-dark p-2 opacity-0 group-hover/content:flex group-hover/content:opacity-100 group-hover/content:transition-all group-hover/content:duration-500 group-hover/content:ease-in-out lg:flex-col lg:rounded-b-xl lg:border-b-2 lg:bg-opacity-90 lg:opacity-0"
 		>
 			<h3 class="font-secondary text-lg font-semibold">{title}</h3>
 			<p class="font-secondary font-extralight">
