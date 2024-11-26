@@ -11,7 +11,7 @@ const homepageConfig = {
 			text: 'my name is',
 			decoratedText: 'Austin Corwin'
 		},
-		subtitle: 'oh, hey there,',
+		subtitle: 'oh hey there,',
 		content:
 			'experienced web and mobile software engineer, avid cyclist, beer drinker, and musician',
 		cta: {

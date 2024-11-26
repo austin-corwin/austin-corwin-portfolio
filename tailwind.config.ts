@@ -20,7 +20,8 @@ export default {
 				tertiary: ['Mulish', 'sans-serif']
 			},
 			colors: {
-				dark: '#071E22',
+				dark: '#061a1e',
+				// darkOld: '#071E22',
 				light: '#E0DDCF',
 				plat: '#EAE1DF',
 				highlight: '#EF6F6C'
@@ -43,9 +44,11 @@ export default {
 						'background-position': 'right center'
 					}
 				}
+			},
+			backgroundImage: {
+				staticTexture: "url('./src/static/images/staticTexture.png')"
 			}
 		}
 	},
-
 	plugins: [typography, forms, containerQueries, aspectRatio]
 } satisfies Config;
