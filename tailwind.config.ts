@@ -46,7 +46,7 @@ export default {
 				}
 			},
 			backgroundImage: {
-				staticTexture: "url('./src/static/images/staticTexture.png')"
+				staticTexture: "url('/src/static/images/staticTexture.png')"
 			}
 		}
 	},

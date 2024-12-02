@@ -27,8 +27,8 @@ const homepageConfig = {
 				title: 'Evolve K9',
 				description:
 					'Evolve K9 is a dog training business that I built a website for. The site is built with Next.js and Tailwind CSS. It utilizes the Google Cloud Platform API to send an email to the business owner and log the record to a google sheet when filled out.',
-				url: 'https://github.com/austin-corwin/evolve-k9',
-				sourceUrl: 'github.com/austincorwin',
+				url: 'https://evolvek9training.com',
+				sourceUrl: 'https://github.com/austincorwin',
 				image: {
 					src: evolvek9,
 					alt: 'Evolve K9'
@@ -49,7 +49,6 @@ const homepageConfig = {
 				title: 'This Portfolio Site',
 				description:
 					'This site is built with SvelteKit and Tailwind CSS. The site is hosted on Vercel. With a focus on performance and accessibility, I built this site to showcase my work and experience. I hope you enjoy!',
-				url: '/',
 				sourceUrl: 'https://github.com/austin-corwin/austin-corwin-portfolio',
 				image: {
 					src: austinPortfolio,

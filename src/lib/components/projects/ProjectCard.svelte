@@ -8,7 +8,7 @@
 	}: {
 		description: string;
 		title: string;
-		url: string;
+		url?: string;
 		image: { src: string; alt: string };
 		sourceUrl: string;
 	} = $props();
@@ -76,7 +76,7 @@
 	<!-- Alternate option:  -->
 	<div class="group/content relative">
 		<div
-			class="absolute bottom-0 left-0 right-0 top-0 z-20 translate-x-3 translate-y-3 rounded-l-xl rounded-r-xl rounded-t-xl rounded-bl-none rounded-br-none border-l-2 border-r-2 border-t-2 border-dark bg-highlight p-2 text-dark opacity-0 group-hover/content:flex group-hover/content:opacity-100 lg:flex-col lg:rounded-b-xl lg:border-b-2 lg:bg-opacity-100 lg:opacity-0"
+			class="absolute bottom-0 left-0 right-0 top-0 z-20 translate-x-3 translate-y-3 rounded-l-xl rounded-r-xl rounded-t-xl rounded-bl-none rounded-br-none border-l-2 border-r-2 border-t-2 border-dark bg-highlight p-2 text-dark opacity-0 lg:flex-col lg:rounded-b-xl lg:border-b-2 lg:bg-opacity-100 lg:opacity-0 group-hover/content:lg:flex group-hover/content:lg:opacity-100"
 		>
 			{#if title}
 				<h3 class="font-secondary text-lg font-bold">{title}</h3>
@@ -108,7 +108,7 @@
 			class=" h-full w-full overflow-hidden rounded-xl rounded-tl-none rounded-tr-none lg:rounded-tl-xl lg:rounded-tr-xl"
 		>
 			<div
-				class="absolute bottom-0 left-0 right-0 top-0 overflow-hidden rounded-xl group-hover/content:bg-light"
+				class="absolute bottom-0 left-0 right-0 top-0 overflow-hidden rounded-xl group-hover/content:lg:bg-light"
 			></div>
 			{#if image.src && image.alt}
 				<img class="z-0" src={image.src} alt={image.alt} />
