@@ -4,10 +4,10 @@
 	const { title, subtitle, content, cta } = hero;
 </script>
 
-<div class="flex flex-col items-start gap-4 lg:mt-24 2xl:mt-36">
+<div class="flex flex-col items-start gap-4">
 	{#if subtitle}
 		<p
-			class="animate-text from-highlight to-highlight bg-gradient-to-r via-light bg-clip-text font-lobster font-extralight text-transparent lg:text-4xl"
+			class="animate-text bg-gradient-to-r from-highlight via-light to-highlight bg-clip-text font-lobster font-extralight text-transparent lg:text-4xl"
 		>
 			{subtitle}
 		</p>
@@ -32,7 +32,7 @@
 
 	{#if cta.text && cta.url}
 		<a
-			class="transform-all hover:text-highlight hover:border-highlight rounded-xl border-2 border-light p-2 font-secondary text-light duration-300 ease-in-out lg:mt-20"
+			class="transform-all mt-6 rounded-xl border-2 border-light p-2 font-secondary text-light duration-300 ease-in-out hover:border-highlight hover:text-highlight lg:mt-20"
 			href={cta.url}>{cta.text}</a
 		>
 	{/if}

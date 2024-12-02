@@ -9,7 +9,7 @@
 </script>
 
 <div class="flex w-full justify-center text-light">
-	<div class="flex flex-col items-start gap-12 px-4 text-light lg:gap-36">
+	<div class="flex flex-col items-start gap-12 px-6 py-12 text-light lg:gap-36 lg:py-24 2xl:py-36">
 		<Hero />
 		<!-- <div class="mt-8 font-tertiary">
 			Fun facts: I've ridden over xxx miles on my Bike I have 4 singles released on spotify. Maybe use

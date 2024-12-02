@@ -8,7 +8,7 @@
 	{#if title}
 		<h2 class="font-lobster text-3xl font-semibold lg:text-5xl">{title}</h2>
 	{/if}
-	<div class="flex w-full flex-col items-start gap-4">
+	<div class="flex w-full flex-col items-start gap-4 pt-6">
 		{#if image.src && image.alt}
 			<div class="flex w-full justify-center">
 				<!-- <div class="bg-highlight h-[300px] w-[250px]"></div> -->
@@ -25,7 +25,7 @@
 					</div>
 
 					<div
-						class="bg-highlight absolute bottom-0 left-0 right-0 top-0 z-0 h-[300px] w-[250px] -translate-x-2 -translate-y-2"
+						class="absolute bottom-0 left-0 right-0 top-0 z-0 h-[300px] w-[250px] -translate-x-2 -translate-y-2 bg-highlight"
 					></div>
 				</div>
 			</div>
