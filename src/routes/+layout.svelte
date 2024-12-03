@@ -8,9 +8,7 @@
 <!-- <div
 	class="flex w-full justify-center bg-gradient-to-tr from-dark via-dark to-[#0f2b2e] text-light"
 > -->
-<div
-	class={`flex w-full justify-center bg-dark bg-staticTexture bg-no-repeat text-light bg-blend-multiply`}
->
+<div class={`flex w-full justify-center bg-dark bg-staticTexture text-light bg-blend-multiply`}>
 	<div class="container w-full">
 		<div class="relative flex w-full justify-center p-3">
 			<!-- <a href="/">Experience</a> -->
