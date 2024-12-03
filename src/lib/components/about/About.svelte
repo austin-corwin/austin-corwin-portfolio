@@ -11,7 +11,7 @@
 	{/if}
 	<div class="flex w-full flex-col items-start gap-4 pt-6">
 		{#if image.src && image.alt}
-			<div class="flex w-full justify-center">
+			<div class="flex w-full justify-center lg:mt-4">
 				<div class="relative h-[300px] w-[250px]">
 					<div
 						class="placeholder-for-image relative z-10 flex h-[300px] w-[250px] -rotate-1 justify-center bg-light p-2"
@@ -32,10 +32,10 @@
 			</div>
 		{/if}
 		{#if content}
-			<div class="flex flex-col items-start gap-4">
-				<p class="font-secondary font-extralight lg:text-lg">
-					{content}
-				</p>
+			<div
+				class="flex flex-col items-start gap-4 font-secondary font-extralight lg:mt-4 lg:text-lg"
+			>
+				{@html content}
 			</div>
 		{/if}
 	</div>

@@ -65,20 +65,12 @@
 					<ul>
 						<li>
 							{#each titles as title}
-								<p class="w-full font-secondary font-extralight">{title}</p>
+								<p class="w-full font-secondary text-lg font-extralight">{title}</p>
 							{/each}
 						</li>
 					</ul>
 				</div>
 			</div>
 		{/if}
-		<!-- {#if achievements.length > 0}
-			<h4 class="font-secondary text-xl font-bold uppercase">Achievements</h4>
-			{#each achievements as achievement}
-				<p class="font-secondary font-extralight lg:text-lg">
-					{@html achievement}
-				</p>
-			{/each}
-		{/if} -->
 	</div>
 </div>
