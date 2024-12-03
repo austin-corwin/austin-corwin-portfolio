@@ -1,5 +1,6 @@
 <script>
 	import homepageConfig from '../../../config/homepageConfig';
+	import austinPortrait from '../../../static/images/austinPortrait.jpg';
 	const { about } = homepageConfig;
 	const { title, content, image } = about;
 </script>
@@ -11,17 +12,17 @@
 	<div class="flex w-full flex-col items-start gap-4 pt-6">
 		{#if image.src && image.alt}
 			<div class="flex w-full justify-center">
-				<!-- <div class="bg-highlight h-[300px] w-[250px]"></div> -->
 				<div class="relative h-[300px] w-[250px]">
-					<!-- <img
-						src="https://via.placeholder.com/150"
-						alt="Austin Corwin"
-						class=" relative z-10 h-full w-full -rotate-1"
-					/> -->
 					<div
 						class="placeholder-for-image relative z-10 flex h-[300px] w-[250px] -rotate-1 justify-center bg-light p-2"
 					>
-						<div class="h-[200px] w-full bg-dark"></div>
+						<div class="h-[200px] w-full overflow-hidden bg-dark">
+							<img
+								src={austinPortrait}
+								alt="Austin holding a guitar and smiling on a stage"
+								class="relative z-10 h-full w-full object-cover"
+							/>
+						</div>
 					</div>
 
 					<div

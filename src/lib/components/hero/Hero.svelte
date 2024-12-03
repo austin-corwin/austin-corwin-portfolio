@@ -13,7 +13,7 @@
 		</p>
 	{/if}
 	<div>
-		<h1 class="font-lobster text-[3rem] font-bold lg:text-[6rem]">
+		<h1 class="font-lobster text-[2.5rem] font-bold lg:text-[6rem]">
 			{#if title.text}
 				<span class="font-secondary text-[1rem] font-extralight lg:text-4xl">{title.text}</span>
 			{/if}
@@ -27,12 +27,12 @@
 			</p>
 		{/if}
 	</div>
-
+	<!-- Keep this in case I want to switch content  -->
 	<!-- <h2 class="font-kanit font-semibold">Bike Writer 🚲 and Code Rider 👨‍💻</h2> -->
 
 	{#if cta.text && cta.url}
 		<a
-			class="transform-all mt-6 rounded-xl border-2 border-light p-2 font-secondary text-light duration-300 ease-in-out hover:border-highlight hover:text-highlight lg:mt-20"
+			class="transform-all mt-6 rounded-xl border-2 border-light p-2 font-secondary text-xs text-light duration-300 ease-in-out hover:border-highlight hover:text-highlight md:text-base lg:mt-20"
 			href={cta.url}>{cta.text}</a
 		>
 	{/if}
@@ -41,7 +41,6 @@
 <style>
 	@media (min-width: 1024px) {
 		.highlight-shadow {
-			/* text-shadow: 0 0 10px #ef6f6c; */
 			text-shadow: -6px -6px 0px #e0ddcf;
 		}
 	}
