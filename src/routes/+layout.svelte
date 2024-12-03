@@ -33,7 +33,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-color: #131a1c;
+		background-color: #0f1517;
 		z-index: -1;
 		opacity: 0.97;
 	}
