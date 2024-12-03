@@ -28,7 +28,7 @@ const homepageConfig = {
 				description:
 					'Evolve K9 is a dog training business that I built a website for. The site is built with Next.js and Tailwind CSS. It utilizes the Google Cloud Platform API to send an email to the business owner and log the record to a google sheet when filled out.',
 				url: 'https://evolvek9training.com',
-				sourceUrl: 'https://github.com/austincorwin',
+				sourceUrl: 'https://github.com/austin-corwin/evolve-k9',
 				image: {
 					src: evolvek9,
 					alt: 'Evolve K9'
@@ -42,7 +42,7 @@ const homepageConfig = {
 				sourceUrl: 'https://github.com/austin-corwin/liquidmiles-dev',
 				image: {
 					src: liquidMiles,
-					alt: 'Evolve K9'
+					alt: 'Full beers lined up in a row on a bar table with text in the center of the image'
 				}
 			},
 			{
@@ -52,7 +52,7 @@ const homepageConfig = {
 				sourceUrl: 'https://github.com/austin-corwin/austin-corwin-portfolio',
 				image: {
 					src: austinPortfolio,
-					alt: 'Evolve K9'
+					alt: 'Portfolio website with text and call to action'
 				}
 			}
 		]
