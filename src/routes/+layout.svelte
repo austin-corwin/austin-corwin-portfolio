@@ -4,16 +4,10 @@
 	let { children } = $props();
 </script>
 
-<!-- <div class="flex w-full justify-center bg-gradient-to-r from-dark to-[#0f2b2e] text-light"> -->
-<!-- <div
-	class="flex w-full justify-center bg-gradient-to-tr from-dark via-dark to-[#0f2b2e] text-light"
-> -->
-<div class={`bg-static flex w-full justify-center bg-dark text-light bg-blend-multiply`}>
+<div class={`bg-static flex w-full justify-center bg-dark text-light`}>
 	<div class="container w-full">
 		<div class="relative flex w-full justify-center p-3">
-			<!-- <a href="/">Experience</a> -->
 			<p class="font-lobster">Austin Corwin</p>
-			<!-- <a href="/settings">Settings</a> -->
 			<a
 				href={resume}
 				class="absolute right-2 font-lobster transition-all duration-300 ease-in-out hover:text-highlight"
@@ -27,7 +21,20 @@
 <style>
 	.bg-static {
 		background-image: url('/src/static/images/staticTexture.png');
-		background-blend-mode: multiply;
+		z-index: 1;
+		position: relative;
+	}
+	.bg-static:before {
+		content: '';
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
 		background-color: #061a1e;
+		z-index: -1;
+		opacity: 0.97;
 	}
 </style>
