@@ -37,7 +37,7 @@ const homepageConfig = {
 			{
 				title: 'Liquid Miles',
 				description:
-					'Liquid Miles is an event that I created and annually host with my wife and all my crazy friends. The site was built early in my software career utilizing Nuxt.js and CSS hosted on Netlify. A Next.js re-work of this site is in progress.',
+					'Liquid Miles is an event that I created and annually host with my wife and all my crazy friends. The site was built early in my software career utilizing Nuxt.js hosted on Netlify. A Next.js re-work of this site is in progress.',
 				url: 'https://liquidmiles.com',
 				sourceUrl: 'https://github.com/austin-corwin/liquidmiles-dev',
 				image: {
